@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet" />
+
+  <title>MovieApp</title>
+</head>
+
+<body>
+  <header>
+    <div class="contenedor">
+      <h2 class="logotipo">MovieApp</h2>
+      <nav>
+        <a href="" class="activo">Inicio</a>
+        <a href="">Series</a>
+        <a href="">Películas</a>
+        <a href="">Mi Lista</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="pelicula-principal">
+      <div class="contenedor">
+        <h3 class="titulo">Moonrise Kingdom</h3>
+        <p class="descripcion">
+          Años 60. La huida de dos jóvenes amantes de su pueblo natal lleva a
+          sus familiares y amigos a salir en su búsqueda. Así, quedarán de
+          manifiesto viejos rencores y ocultas relaciones románticas entre
+          algunos de los personajes que participan en la búsqueda.
+        </p>
+        <button role="button" class="boton">
+          <i class="fas fa-play"></i>Reproducir
+        </button>
+        <button role="button" class="boton">
+          <i class="fas fa-info-circle"></i>Más Información
+        </button>
+      </div>
+    </div>
+
+    <div class="peliculas-recomendadas contenedor">
+      <div class="contenedor-titulo-controles">
+        <h3>Películas Recomendadas</h3>
+        <div class="indicadores"></div>
+      </div>
+
+      <div class="contenedor-principal">
+        <button role="button" id="flecha-izquierda" class="flecha-izquierda">
+          <i class="fas fa-angle-left"></i>
+        </button>
+
+        <div class="contenedor-carrusel">
+          <div class="carrusel">
+            <div class="pelicula">
+              <a href=""><img src="./img/amelie.jpg" alt="Amelie" /></a>
+            </div>
+            <div class="pelicula">
+              <a href=""><img src="./img/django.jpg" alt="Django Desencadenado" /></a>
+            </div>
+            <div class="pelicula">
+              <a href=""><img src="./img/facil.jpg" alt="No soy hombre fácil" /></a>
+            </div>
+            <div class="pelicula">
+              <a href=""><img src="./img/fauno.jpg" alt="El Laberinto del Fauno" /></a>
+            </div>
+            <div class="pelicula">
+              <a href=""><img src="./img/harry.jpg" alt="Harry Potter y el misterio del príncipe" /></a>
+            </div>
+            <div class="pelicula">
+              <a href=""><img src="./img/medianoche.jpg" alt="Medianoche en París" /></a>
+            </div>
+            <div class="pelicula">
+              <a href=""><img src="./img/orgullo.jpg" alt="Orgullo y Prejuicio" /></a>
+            </div>
+            <div class="pelicula">
+              <a href=""><img src="./img/Pelea.jpg" alt="El Club de la Pelea" /></a>
+            </div>
+            <div class="pelicula">
+              <a href=""><img src="./img/amelie.jpg" alt="Amelie" /></a>
+            </div>
+            <div class="pelicula">
+              <a href=""><img src="./img/django.jpg" alt="Django Desencadenado" /></a>
+            </div>
+          </div>
+        </div>
+
+        <button role="button" id="flecha-derecha" class="flecha-derecha">
+          <i class="fas fa-angle-right"></i>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
